@@ -24,24 +24,48 @@ body {
 
 header {
   width: 700px;
-  height: 300px;
   margin: auto;
+  margin-top: 15px;
+}
+
+.jumbotron {
+  background-image: url(../img/natural-default-header.jpg);
+  height: 300px;
+  background-size: cover;
+  border: 8px solid white;
+  text-align: center;
   position: relative;
-  background-color: red;
+}
+
+.natural_logo {
+  position: absolute;
+  max-width: 300px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.claim {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 10%;
+  text-transform: uppercase;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  color: white;
 }
 
 nav {
   width: 100%;
-  height: 15%;
-  position: absolute;
-  bottom: 0;
+  height: 30px;
   background-color: grey;
 }
 
 main {
   width: 700px;
-  height: 900px;
-  background-color: green;
+  min-height: 900px;
   margin: auto;
   text-align: center;
 }
@@ -49,19 +73,19 @@ main {
 .left {
   width: 100px;
   height: 300px;
-  background-color: yellow;
+  background-color: white;
 }
 
 .right {
   width: 100px;
   height: 700px;
-  background-color: orange;
+  background-color: white;
 }
 
 .center {
   width: 400px;
   height: 250px;
-  background-color: purple;
+  background-color: white;
   display: inline-block;
   margin: auto;
 }
@@ -69,6 +93,6 @@ main {
 footer {
   width: 700px;
   height: 100px;
-  background-color: blue;
+  background-color: white;
   margin: auto;
 }
