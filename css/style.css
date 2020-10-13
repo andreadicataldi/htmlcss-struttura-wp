@@ -69,7 +69,7 @@ nav {
 
 }
 
-a {
+.navlist a {
   text-decoration: none;
   color: white;
   font-family: arial, helvetica, sans-serif;
@@ -78,7 +78,7 @@ a {
   font-size: 0.7em;
 }
 
-ul li {
+.navlist li {
   display: inline-block;
   margin-top: 5px;
   margin-left: 4px;
@@ -92,13 +92,38 @@ main {
 }
 
 .left {
-  width: 100px;
-  height: 300px;
+  width: 130px;
   background-color: white;
+  position: relative;
+}
+
+.rss_icon {
+  color: orange;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 1.2em;
+}
+
+.left h3 {
+  margin-top: 3px;
+  font-family: arial, helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.left a {
+  display: block;
+  text-decoration: none;
+  margin: 5px;
+  color: green;
+  font-family: arial, helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 0.8em;
+  text-align: left;
 }
 
 .right {
-  width: 100px;
+  width: 130px;
   height: 700px;
   background-color: white;
 }
