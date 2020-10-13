@@ -86,15 +86,17 @@ nav {
 
 main {
   width: 700px;
-  min-height: 900px;
+
   margin: auto;
   text-align: center;
 }
 
 .left {
+  margin-top: 10px;
   width: 130px;
   background-color: white;
   position: relative;
+  border-radius: 4px;
 }
 
 .rss_icon {
@@ -122,23 +124,67 @@ main {
   text-align: left;
 }
 
-.right {
-  width: 130px;
-  height: 700px;
-  background-color: white;
-}
-
 .center {
+  margin-top: 10px;
   width: 400px;
-  height: 250px;
   background-color: white;
   display: inline-block;
-  margin: auto;
+  border-radius: 4px;
+}
+
+.center h2 {
+  text-align: left;
+  margin: 15px;
+  text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+  font-family: arial, helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+
+.center p {
+  text-align: left;
+  margin: 15px;
+  font-family: arial, helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 0.85em;
+  line-height: 1.8em;
+}
+
+.right {
+  margin-top: 10px;
+  width: 130px;
+}
+
+.textwidget {
+  background-color: white;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.textwidget h3 {
+  font-family: arial, helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.0em;
+  text-align: left;
+  padding: 15px;
+}
+
+.textwidget p {
+  font-family: arial, helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 0.7em;
+  text-align: left;
+  padding: 10px;
+  line-height: 1.8em;
 }
 
 footer {
   width: 700px;
   height: 100px;
   background-color: white;
+  border-radius: 4px;
   margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
