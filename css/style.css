@@ -64,9 +64,8 @@ nav {
   text-align: center;
 }
 
-.navlist{
+.navlist {
   list-style-type: none;
-
 }
 
 .navlist a {
@@ -86,7 +85,6 @@ nav {
 
 main {
   width: 700px;
-
   margin: auto;
   text-align: center;
 }
@@ -148,7 +146,7 @@ main {
   font-family: arial, helvetica, sans-serif;
   font-weight: 500;
   font-size: 0.85em;
-  line-height: 1.8em;
+  line-height: 1.6em;
 }
 
 .right {
@@ -167,16 +165,17 @@ main {
   font-weight: 400;
   font-size: 1.0em;
   text-align: left;
-  padding: 15px;
+  padding: 12px;
 }
 
 .textwidget p {
   font-family: arial, helvetica, sans-serif;
   font-weight: 400;
-  font-size: 0.7em;
+  font-size: 0.8em;
   text-align: left;
-  padding: 10px;
-  line-height: 1.8em;
+  padding: 12px;
+  line-height: 1.6em;
+  margin-bottom: 15px;
 }
 
 footer {
@@ -185,6 +184,44 @@ footer {
   background-color: white;
   border-radius: 4px;
   margin: auto;
-  margin-top: 10px;
   margin-bottom: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.credits {
+  padding: 2px;
+  text-align: center;
+  font-family: arial, helvetica, sans-serif;
+  font-style: italic;
+  color: lightgrey;
+  font-size: 0.7em;
+  border-bottom: 1px solid black;
+}
+
+.fbicon {
+  position: absolute;
+  left: 15%;
+  bottom: 20%;
+  font-size: 1.5em;
+  color: lightgrey;
+  transform: translate(-50%, -50%);
+}
+
+.igicon {
+  position: absolute;
+  left: 50%;
+  bottom: 20%;
+  font-size: 1.5em;
+  color: lightgrey;
+  transform: translate(-50%, -50%);
+}
+
+.ghicon {
+  position: absolute;
+  right: 15%;
+  bottom: 20%;
+  font-size: 1.5em;
+  color: lightgrey;
+  transform: translate(-50%, -50%);
 }
